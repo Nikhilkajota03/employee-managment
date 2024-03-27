@@ -14,7 +14,7 @@ dbConnection();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://employee-managment-three.vercel.app",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
