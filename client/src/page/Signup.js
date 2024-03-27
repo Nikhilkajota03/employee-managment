@@ -43,7 +43,7 @@ const Signup = () => {
 
     try {
       const add = await axios.post(
-        "http://localhost:8000/api/v1/user/register",
+        "https://employee-managment-mslv.onrender.com/register",
         { name, email, password, formattedDate }
       );
 
