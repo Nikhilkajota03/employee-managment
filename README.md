@@ -1,15 +1,73 @@
-# Attendance-management
+# MERN User-manager
 
-Hey there, everyone!
+## LIVE LINK 
+     https://employee-managment-three.vercel.app
+     [site response may be slow due to free services used]
 
-It's me, Gc, 
 
-I wanted to share that I've created an attendance management website using the MERN stack. It's a handy tool that allows you to download attendance records as CSV files. You can choose the date and get a list of students who were present or absent on that day.
 
-By default, the attendance period is set to one month, specifically June. But don't worry, you have the flexibility to change it. You can modify the code to either query the start and end dates or simply add input boxes on the website. Once you connect them to the backend, you'll be able to set your desired date range effortlessly.
+##  Technologies Used
+    Express.js: A flexible Node.js web application framework that handles server-side logic.
+    React.js: A JavaScript library for building dynamic and interactive user interfaces, used for creating the frontend.
+    Node.js: A JavaScript runtime employed for building the server-side of the application.
+    
+ 
 
-If you come across any bugs or issues while using the website, please let me know. I'll be happy to help you solve them. So go ahead, have fun coding, and enjoy the experience!
+  
+## Quickstart Guide
 
-Happy coding and have a blast!
 
-Cheers, Gc
+
+Clone the repository
+```
+$ git clone https://github.com/Nikhilkajota03/employee-managment.git
+```
+
+
+Edit the dockercompose.yml file and update the the values for MONGO_URI and JWT_SECRET if you want to run it on local machine
+
+
+
+
+## Install
+
+Some basic Git commands are:
+
+```
+$ git clone https://github.com/Nikhilkajota03/task-manger.git
+$ cd project
+$ npm install
+```
+
+## Start development
+
+```
+$ npm run start
+```
+
+
+```
+
+## Run build for production
+
+```
+$ npm start
+```
+
+
+## Languages & tools
+
+- [Node]
+
+- [Express]
+
+- [Mongoose]
+
+- [React]
+
+
+
+[you can simply run the frontend and interact with the website because the apis are deployed on aws and database is on dynamoDB]
+
+
+
