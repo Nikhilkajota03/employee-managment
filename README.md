@@ -1,7 +1,8 @@
-# Employee Management System (MERN Stack)
+# User Management System (MERN Stack)
 
-
-![Screenshot 2024-02-08 at 4 43 23 PM](https://github.com/ShivankK26/Employee-Management-System/assets/115289871/14bb5756-3a17-47e3-8051-c66a676582b8)
+## LIVE LINK 
+     https://employee-managment-three.vercel.app
+         [response might have delay due to free services]
 
 
 The Employee Management System is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It enables users to perform CRUD (Create, Read, Update, Delete) operations related to employee records efficiently.
@@ -27,13 +28,13 @@ To run the Employee Management System on your local machine, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/ShivankK26/Employee-Management-System .
+   git clone https://github.com/Nikhilkajota03/employee-managment.git 
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Employee-Management-System
+   cd employee-management
    ```
 
 3. Install server-side dependencies:
@@ -74,18 +75,5 @@ Once the application is running, you can perform the following actions:
 
 - **Create Employee**: Click on the "Add Employee" button to create a new employee record.
 - **Read Employee**: View the list of existing employees along with their details.
-- **Update Employee**: Click on the "Edit" button next to an employee record to modify the details.
-- **Delete Employee**: Click on the "Delete" button to remove an employee from the system.
 
-## Contributing
 
-Contributions to the Employee Management System are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure tests pass.
-4. Submit a pull request detailing the changes made and any relevant information.
-
----
-
-Manage your employee records efficiently with the Employee Management System built using the powerful MERN stack. Simplify CRUD operations and streamline your workflow today!
