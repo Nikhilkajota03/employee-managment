@@ -67,7 +67,7 @@ $ npm start
 
 
 
-[you can simply run the frontend and interact with the website because the apis are deployed on aws and database is on dynamoDB]
+
 
 
 
