@@ -11,7 +11,7 @@ const Attendance = () => {
       const token = localStorage.getItem("jwt");
       try {
         const getstudents = await axios.get(
-          "https://employee-managment-mslv.onrender.com/getUser",
+          "https://employee-managment-mslv.onrender.com/api/v1/user/getUser",
           {
             headers: {
               Authorization: `Bearer ${token}`,
