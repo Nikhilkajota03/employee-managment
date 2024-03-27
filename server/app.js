@@ -27,6 +27,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/user", userRoute);
 
+app.use("/", (req,res)=>{
+  
+       res.send("server running");
+});
+
 
 
 
