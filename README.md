@@ -1,73 +1,91 @@
-# MERN User-manager
-
-## LIVE LINK 
-     https://employee-managment-three.vercel.app
-     [site response may be slow due to free services used]
+# Employee Management System (MERN Stack)
 
 
-
-##  Technologies Used
-    Express.js: A flexible Node.js web application framework that handles server-side logic.
-    React.js: A JavaScript library for building dynamic and interactive user interfaces, used for creating the frontend.
-    Node.js: A JavaScript runtime employed for building the server-side of the application.
-    
- 
-
-  
-## Quickstart Guide
+![Screenshot 2024-02-08 at 4 43 23 PM](https://github.com/ShivankK26/Employee-Management-System/assets/115289871/14bb5756-3a17-47e3-8051-c66a676582b8)
 
 
+The Employee Management System is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It enables users to perform CRUD (Create, Read, Update, Delete) operations related to employee records efficiently.
 
-Clone the repository
-```
-$ git clone https://github.com/Nikhilkajota03/employee-managment.git
-```
+## Features
 
+- **Create**: Add new employee records with relevant details.
+- **Read**: View existing employee records with their information.
+- **Update**: Modify employee details such as name, position, and contact information.
+- **Delete**: Remove employee records from the system.
 
-Edit the dockercompose.yml file and update the the values for MONGO_URI and JWT_SECRET if you want to run it on local machine
+## Technologies Used
 
+- **MongoDB**: NoSQL database for storing employee information.
+- **Express.js**: Backend framework for handling HTTP requests and routing.
+- **React.js**: Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime environment for server-side development.
 
+## Installation
 
+To run the Employee Management System on your local machine, follow these steps:
 
-## Install
+1. Clone the repository to your local machine:
 
-Some basic Git commands are:
+   ```bash
+   git clone https://github.com/ShivankK26/Employee-Management-System .
+   ```
 
-```
-$ git clone https://github.com/Nikhilkajota03/task-manger.git
-$ cd project
-$ npm install
-```
+2. Navigate to the project directory:
 
-## Start development
+   ```bash
+   cd Employee-Management-System
+   ```
 
-```
-$ npm run start
-```
+3. Install server-side dependencies:
 
+   ```bash
+   cd server
+   npm install
+   ```
 
-```
+4. Install client-side dependencies:
 
-## Run build for production
+   ```bash
+   cd ../client
+   npm install
+   ```
 
-```
-$ npm start
-```
+5. Start the MongoDB server on your local machine.
 
+6. Start the backend server:
 
-## Languages & tools
+   ```bash
+   cd ../server
+   nodemon index.js
+   ```
 
-- [Node]
+7. Start the frontend application:
 
-- [Express]
+   ```bash
+   cd ../client
+   npm run dev
+   ```
 
-- [Mongoose]
+8. Access the Employee Management System in your browser at `http://localhost:5173`.
 
-- [React]
+## Usage
 
+Once the application is running, you can perform the following actions:
 
+- **Create Employee**: Click on the "Add Employee" button to create a new employee record.
+- **Read Employee**: View the list of existing employees along with their details.
+- **Update Employee**: Click on the "Edit" button next to an employee record to modify the details.
+- **Delete Employee**: Click on the "Delete" button to remove an employee from the system.
 
+## Contributing
 
+Contributions to the Employee Management System are welcome! To contribute:
 
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure tests pass.
+4. Submit a pull request detailing the changes made and any relevant information.
 
+---
 
+Manage your employee records efficiently with the Employee Management System built using the powerful MERN stack. Simplify CRUD operations and streamline your workflow today!
