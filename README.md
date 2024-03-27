@@ -1,15 +1,74 @@
-# Attendance-management
+# User Management System (MERN Stack)
 
-Hey there, everyone!
+## LIVE LINK 
+     https://employee-managment-three.vercel.app
+         [response might have delay due to free services]
 
-It's me, Gc, 
 
-I wanted to share that I've created an attendance management website using the MERN stack. It's a handy tool that allows you to download attendance records as CSV files. You can choose the date and get a list of students who were present or absent on that day.
+The Employee Management System is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It enables users to perform CRUD (Create, Read, Update, Delete) operations related to employee records efficiently.
 
-By default, the attendance period is set to one month, specifically June. But don't worry, you have the flexibility to change it. You can modify the code to either query the start and end dates or simply add input boxes on the website. Once you connect them to the backend, you'll be able to set your desired date range effortlessly.
+## Features
 
-If you come across any bugs or issues while using the website, please let me know. I'll be happy to help you solve them. So go ahead, have fun coding, and enjoy the experience!
+- **Create**: Add new employee records with relevant details.
+- **Read**: View existing employee records with their information.
+- **Update**: Modify employee details such as name, position, and contact information.
+- **Delete**: Remove employee records from the system.
 
-Happy coding and have a blast!
+## Technologies Used
 
-Cheers, Gc
+- **MongoDB**: NoSQL database for storing employee information.
+- **Express.js**: Backend framework for handling HTTP requests and routing.
+- **React.js**: Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime environment for server-side development.
+
+## Installation
+
+To run the Employee Management System on your local machine, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Nikhilkajota03/employee-managment.git 
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd employee-management
+   ```
+
+3. Install server-side dependencies:
+
+   ```bash
+   cd server
+   npm install
+   ```
+
+4. Install client-side dependencies:
+
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+5. Start the MongoDB server on your local machine.
+
+6. Start the backend server:
+
+   ```bash
+   cd ../server
+   nodemon index.js
+   ```
+
+7. Start the frontend application:
+
+   ```bash
+   cd ../client
+   npm run dev
+   ```
+
+
+
+
+
+

@@ -86,7 +86,7 @@ export const getUser = async(req,res)=>{
 
 export const VerifyUser = async(req,res)=>{
 
-  console.log({ "Verify User"   : req.headers});
+  // console.log({ "Verify User"   : req.headers});
 
   try {
     const authHeader = req.headers.authorization;
