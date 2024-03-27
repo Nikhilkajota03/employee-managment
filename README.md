@@ -67,13 +67,8 @@ To run the Employee Management System on your local machine, follow these steps:
    npm run dev
    ```
 
-8. Access the Employee Management System in your browser at `http://localhost:5173`.
 
-## Usage
 
-Once the application is running, you can perform the following actions:
 
-- **Create Employee**: Click on the "Add Employee" button to create a new employee record.
-- **Read Employee**: View the list of existing employees along with their details.
 
 
